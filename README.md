@@ -75,3 +75,11 @@ github에서 repository 생성하기
 ![alt text](image-26.png)
 
 ### 1.2.2. push 과정
+디렉터리 내에서 작업하게 되면 스테이지에 올라가지 않은 파일이 생긴다.
+![alt text](image-30.png)
+스테이지에 파일을 올리면 커밋이 가능해진다.
+![alt text](image-31.png)
+커밋을 누르면 커밋 메세지를 작성할 수 있고 커밋하면 Push가 가능해진다.
+![alt text](image-32.png)
+![alt text](image-33.png)
+![alt text](image-34.png)
