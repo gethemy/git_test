@@ -38,9 +38,26 @@ github에서 repository 생성하기
 <br>브랜치명(main)이 잘 뜨는지 / 폴더에 .git 폴더가 생성되었는지 확인<br>
 
 ### 1.1.3. push 과정
+우선 인증 이력을 캐시에 저장하도록 설정한다.
+`git config --global credential.helper store`
+![alt text](image-28.png)
+그러면 처음 push할 때만 1회 로그인후 그 이후는 로그인할 필요 없다
 `git add .`
 `git commit -m "작업내용을 적는 커밋 메시지"`
 `git push`
+![alt text](image-29.png)
+
+### 1.1.4. 신규 브랜치 생성 및 로컬 연결
+github에서 Branches 목록으로 가서 신규 브랜치를 생성한다.
+![alt text](image-35.png)
+![alt text](image-38.png)
+신규 브랜치는 Source에서 트리 형태로 생성된다.
+![alt text](image-39.png)
+`git fetch`로 신규 브랜치를 로컬에서 연결한다.
+![alt text](image-40.png)
+`git checkout (신규 브랜치명)`으로 브랜치를 이동한다.
+![alt text](image-41.png)
+
 
 ## 1.2. sourcetree
 
@@ -67,3 +84,13 @@ github에서 repository 생성하기
 이름:이름
 ![alt text](image-27.png)
 ![alt text](image-26.png)
+
+### 1.2.2. push 과정
+디렉터리 내에서 작업하게 되면 스테이지에 올라가지 않은 파일이 생긴다.
+![alt text](image-30.png)
+스테이지에 파일을 올리면 커밋이 가능해진다.
+![alt text](image-31.png)
+커밋을 누르면 커밋 메세지를 작성할 수 있고 커밋하면 Push가 가능해진다.
+![alt text](image-32.png)
+![alt text](image-33.png)
+![alt text](image-34.png)
