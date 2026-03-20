@@ -1,6 +1,11 @@
 # 개인정보 더미데이터 (100명) - v3.0 FINAL VERSION
 
 ## 데이터 설명
+<br><span style="color:red">충돌 발생용 문구</span><br>
+<br><span style="color:red">충돌 발생용 문구</span><br>
+<br><span style="color:red">충돌 발생용 문구</span><br>
+<br><span style="color:red">충돌 발생용 문구</span><br>
+<br><span style="color:red">충돌 발생용 문구</span><br>
 이 파일은 테스트 및 개발용 더미데이터입니다. 실제 개인정보가 아닙니다.
 **최종 업데이트**: 2024년 3월 21일 (수요일)
 **담당자**: 데이터 팀 - 정보보호팀
